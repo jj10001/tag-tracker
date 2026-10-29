@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 
 from findmy import AppleAccount, LocalAnisetteProvider, RemoteAnisetteProvider, LoginState
-from findmy.account.methods import SmsSecondFactorMethod, TrustedDeviceSecondFactorMethod
+from findmy import SmsSecondFactorMethod, TrustedDeviceSecondFactorMethod
 
 logging.basicConfig(level=logging.INFO)
 
